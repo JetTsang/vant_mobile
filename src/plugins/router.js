@@ -12,6 +12,9 @@ const routes = [
     name: 'home',
     path: '/home',
     component: () => import('@/pages/home/Home.vue'),
+    meta: {
+      title: 'meta上的title'
+    }
   },
 //   {
 //     name: 'user',

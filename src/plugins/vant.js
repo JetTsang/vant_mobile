@@ -2,7 +2,9 @@ import {
     Button,
     Cell,
     CellGroup,
-    Popup
+    Popup,
+    NavBar,
+    Icon,
 } from "vant"
 
 export default {
@@ -11,5 +13,7 @@ export default {
         Vue.use(Cell)
         Vue.use(CellGroup)
         Vue.use(Popup)
+        Vue.use(NavBar)
+        Vue.use(Icon)
     }
 }
