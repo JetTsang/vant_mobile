@@ -1,5 +1,5 @@
 # vant_mobile
-
+这是一个基于Vue2.7 + Vant + less + viewPort自适应的移动端项目模版
 ## Project setup
 ```
 pnpm install
