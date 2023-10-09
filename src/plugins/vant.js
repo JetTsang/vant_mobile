@@ -1,3 +1,4 @@
+import Vue from 'vue'
 import { 
     Button,
     Cell,
@@ -7,13 +8,10 @@ import {
     Icon,
 } from "vant"
 
-export default {
-    install(Vue){
-        Vue.use(Button)
-        Vue.use(Cell)
-        Vue.use(CellGroup)
-        Vue.use(Popup)
-        Vue.use(NavBar)
-        Vue.use(Icon)
-    }
-}
+
+Vue.use(Button)
+Vue.use(Cell)
+Vue.use(CellGroup)
+Vue.use(Popup)
+Vue.use(NavBar)
+Vue.use(Icon)
