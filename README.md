@@ -22,3 +22,12 @@ pnpm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### docker 构建流程
+
+
+<!-- 执行Dockerfile ,构建镜像 -->
+docker build . -t your_image_name --no-cache
+
+<!-- 启动 Docker 容器-->
+docker run -d -p 8080:80 your_image_name
